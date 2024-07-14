@@ -22,21 +22,27 @@
 
 .img-2 {
   width: 140px;
+  /* width: 100%; */
   border-radius: 10px;
 }
 
 .img-3 {
   display: block;
   margin: auto;
-  width: 550px;
+  /* width: 550px; */
+  width: 100%;
 }
 
 .img-4 {
-  width: 450px;
+  width: 100%;
+  display: block;
+  margin: auto;
 }
 
 .img-5 {
-  width: 350px;
+  width: 100%;
+  display: block;
+  margin: auto;
 }
 
 .header {
@@ -87,8 +93,24 @@
   color: black;
 }
 
+@media (max-width: 710px) {
+  .Andrei {
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 670px) {
+  .Andrei {
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+}
+
 .profile {
   display: flex;
+  width: 100%;
   position: relative;
   align-items: center;
   border: 1px solid rgb(240, 240, 240);
@@ -101,6 +123,33 @@
 .butt {
   position: absolute;
   right: 20px;
+}
+
+@media (max-width: 890px) {
+  .butt {
+    right: 70px;
+    bottom: 5px;
+  }
+}
+
+@media (max-width: 795px) {
+  .butt {
+    right: 10px;
+    bottom: 35px;
+  }
+}
+@media (max-width: 710px) {
+  .butt {
+    right: 50px;
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 670px) {
+  .butt {
+    right: 40px;
+    bottom: 5px;
+  }
 }
 
 .text-main {
