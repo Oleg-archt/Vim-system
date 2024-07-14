@@ -1,0 +1,35 @@
+.mid {
+  margin-bottom: 30px;
+}
+
+.slider {
+  width: 607px;
+  height: 500px;
+  background-image: url(./img/10192a26-98ce-4adc-a15e-ef153b73a52a.png);
+  background-size: cover;
+  background-position: center;
+  animation: animate 24s infinite;
+}
+
+@keyframes animate {
+  20% {
+    background-image: url(./img/822aa00c-95a1-446c-add1-881d4b8144ce.png);
+    background-size: cover;
+  }
+  40% {
+    background-image: url(./img/0d21a869-6d89-43a1-a73a-ce11b9ec1099.png);
+    background-size: cover;
+  }
+  60% {
+    background-image: url(./img/71dca530-fb81-445d-8ece-8a31b05ffacb.png);
+    background-size: cover;
+  }
+  80% {
+    background-image: url(./img/1475b45f-18be-4e02-8488-fb762bcc6328.png);
+    background-size: cover;
+  }
+  100% {
+    background-image: url(./img/e941b5e9-545c-481e-a6f9-c7042c5aadae.png);
+    background-size: cover;
+  }
+}
